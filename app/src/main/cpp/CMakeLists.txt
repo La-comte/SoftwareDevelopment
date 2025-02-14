@@ -35,3 +35,16 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
         # List libraries link to the target library
         android
         log)
+
+add_library(spdlog STATIC IMPORTED)
+
+set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
+        C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\libs\\spdlog\\build\\x86_64\\libspdlog.a)
+target_include_directories(myapplication PUBLIC
+        C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\libs\\spdlog\\include)
+
+target_link_libraries( # Specifies the target library.
+        myapplication
+        # Links the target library to the log library
+        # included in the NDK.
+        ${log-lib} )
