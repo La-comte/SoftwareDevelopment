@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "C:\\Users\\group1\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "C:\\Users\\dutti\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
       "-C",
-      "C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\app\\.cxx\\Debug\\724ny1p4\\x86",
+      "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\.cxx\\Debug\\724ny1p4\\x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "C:\\Users\\group1\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "C:\\Users\\dutti\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
     "-C",
-    "C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\app\\.cxx\\Debug\\724ny1p4\\x86",
+    "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\.cxx\\Debug\\724ny1p4\\x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
@@ -21,14 +21,14 @@
       "toolchain": "toolchain",
       "abi": "x86",
       "artifactName": "myapplication",
-      "output": "C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\app\\build\\intermediates\\cxx\\Debug\\724ny1p4\\obj\\x86\\libmyapplication.so",
+      "output": "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\build\\intermediates\\cxx\\Debug\\724ny1p4\\obj\\x86\\libmyapplication.so",
       "runtimeFiles": []
     }
   },
   "toolchains": {
     "toolchain": {
-      "cCompilerExecutable": "C:\\Users\\group1\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
-      "cppCompilerExecutable": "C:\\Users\\group1\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+      "cCompilerExecutable": "C:\\Users\\dutti\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\dutti\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
     }
   },
   "cFileExtensions": [],

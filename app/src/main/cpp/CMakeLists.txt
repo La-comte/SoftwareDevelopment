@@ -37,14 +37,22 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
         log)
 
 add_library(spdlog STATIC IMPORTED)
+add_library(mbedcrypto STATIC IMPORTED)
 
 set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
-        C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\libs\\spdlog\\build\\x86_64\\libspdlog.a)
+        C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\spdlog\\build\\x86_64\\libspdlog.a)
+set_target_properties(mbedcrypto PROPERTIES IMPORTED_LOCATION
+        C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\mbedtls\\build\\x86_64\\library\\libmbedcrypto.so)
+
 target_include_directories(myapplication PUBLIC
-        C:\\Users\\group1\\AndroidStudioProjects\\mew_lab1\\libs\\spdlog\\include)
+        C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\spdlog\\include
+        C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\mbedtls\\include)
+
 
 target_link_libraries( # Specifies the target library.
         myapplication
+        spdlog
+        mbedcrypto
         # Links the target library to the log library
         # included in the NDK.
         ${log-lib} )

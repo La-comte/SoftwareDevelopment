@@ -1,1 +1,1 @@
-C:\Users\group1\AndroidStudioProjects\mew_lab1\app\build\intermediates\cxx\Debug\724ny1p4\obj\x86
+C:\Users\dutti\StudioProjects\SoftwareDevelopment\app\build\intermediates\cxx\Debug\724ny1p4\obj\x86

@@ -1,5 +1,9 @@
 # ninja log v5
-6	3460	7612262371735916	CMakeFiles/myapplication.dir/native-lib.cpp.o	f7e34250f6104878
-3461	3570	7612262373136153	C:/Users/group1/AndroidStudioProjects/mew_lab1/app/build/intermediates/cxx/Debug/724ny1p4/obj/x86_64/libmyapplication.so	6e5a44b23967b74b
-4	3221	7612278341641215	CMakeFiles/myapplication.dir/native-lib.cpp.o	68dde26ec885437e
-3222	3313	7612278342878076	C:/Users/group1/AndroidStudioProjects/mew_lab1/app/build/intermediates/cxx/Debug/724ny1p4/obj/x86_64/libmyapplication.so	6e5a44b23967b74b
+6505	6748	7630457509921243	C:/Users/dutti/StudioProjects/SoftwareDevelopment/app/build/intermediates/cxx/Debug/724ny1p4/obj/x86_64/libmyapplication.so	36c3276358ed466c
+1	6500	7630457506973532	CMakeFiles/myapplication.dir/native-lib.cpp.o	2e7f57c69295f07f
+28	6010	7630490454483767	CMakeFiles/myapplication.dir/native-lib.cpp.o	a762077f9366d9af
+6011	6363	7630490458418107	C:/Users/dutti/StudioProjects/SoftwareDevelopment/app/build/intermediates/cxx/Debug/724ny1p4/obj/x86_64/libmyapplication.so	516f6bc794b222de
+43	5037	7630499765454642	CMakeFiles/myapplication.dir/native-lib.cpp.o	a762077f9366d9af
+5040	5332	7630499769244081	C:/Users/dutti/StudioProjects/SoftwareDevelopment/app/build/intermediates/cxx/Debug/724ny1p4/obj/x86_64/libmyapplication.so	516f6bc794b222de
+53	6721	7630504333407497	CMakeFiles/myapplication.dir/native-lib.cpp.o	a762077f9366d9af
+6722	7190	7630504338447586	C:/Users/dutti/StudioProjects/SoftwareDevelopment/app/build/intermediates/cxx/Debug/724ny1p4/obj/x86_64/libmyapplication.so	516f6bc794b222de
