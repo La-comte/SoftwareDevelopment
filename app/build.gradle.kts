@@ -58,4 +58,6 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation("commons-codec:commons-codec:1.15")
+    implementation("org.apache.commons:commons-io:1.3.2")
+
 }
