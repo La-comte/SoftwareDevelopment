@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/dutti/StudioProjects/SoftwareDevelopment/app/.cxx/Debug/724ny1p4/x86",
-  "command": "C:\\Users\\dutti\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android31 --sysroot=C:/Users/dutti/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dmyapplication_EXPORTS -IC:/Users/group1/AndroidStudioProjects/mew_lab1/libs/spdlog/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -o CMakeFiles\\myapplication.dir\\native-lib.cpp.o -c C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\src\\main\\cpp\\native-lib.cpp",
+  "command": "C:\\Users\\dutti\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android31 --sysroot=C:/Users/dutti/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dmyapplication_EXPORTS -IC:/Users/dutti/StudioProjects/SoftwareDevelopment/libs/spdlog/include -IC:/Users/dutti/StudioProjects/SoftwareDevelopment/libs/mbedtls/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -o CMakeFiles\\myapplication.dir\\native-lib.cpp.o -c C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\src\\main\\cpp\\native-lib.cpp",
   "file": "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\src\\main\\cpp\\native-lib.cpp"
 }
 ]

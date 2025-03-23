@@ -22,7 +22,9 @@
       "abi": "x86",
       "artifactName": "myapplication",
       "output": "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\app\\build\\intermediates\\cxx\\Debug\\724ny1p4\\obj\\x86\\libmyapplication.so",
-      "runtimeFiles": []
+      "runtimeFiles": [
+        "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\mbedtls\\build\\x86_64\\library\\libmbedcrypto.so"
+      ]
     }
   },
   "toolchains": {

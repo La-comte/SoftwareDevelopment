@@ -36,9 +36,15 @@
 				"parent" : 0
 			},
 			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 43,
+				"line" : 47,
 				"parent" : 0
 			}
 		]
@@ -61,8 +67,12 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "C:/Users/group1/AndroidStudioProjects/mew_lab1/libs/spdlog/include"
+					"backtrace" : 4,
+					"path" : "C:/Users/dutti/StudioProjects/SoftwareDevelopment/libs/spdlog/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/dutti/StudioProjects/SoftwareDevelopment/libs/mbedtls/include"
 				}
 			],
 			"language" : "CXX",
@@ -93,6 +103,16 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\spdlog\\build\\x86_64\\libspdlog.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\dutti\\StudioProjects\\SoftwareDevelopment\\libs\\mbedtls\\build\\x86_64\\library\\libmbedcrypto.so",
 				"role" : "libraries"
 			},
 			{
