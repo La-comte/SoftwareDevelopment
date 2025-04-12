@@ -1,21 +1,26 @@
-package ru.iu3.Art.models;
+package ru.iu3.backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
 @Table(name = "countries")
 @Access(AccessType.FIELD)
 public class Country {
+    public Country() { }
+    public Country(Long id) {
+        this.id = id;
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     public long id;
-
     @Column(name = "name", nullable = false, unique = true)
     public String name;
+    @JsonIgnore
+    @OneToMany(mappedBy = "country", targetEntity = Artist.class)
+    public List artists = new ArrayList();
 }
