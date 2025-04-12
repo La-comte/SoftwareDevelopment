@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Art
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/buysell?currentSchema=art
+    username: artb
+    password: "#art-service"
+    driverClassName: org.postgresql.Driver
+server:
+  port: 8008
