@@ -8,9 +8,9 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity // таблица в базе
-@Table(name = "users") //имя это таблицы users
-@Access(AccessType.FIELD) // разрешаем доступ к полям класса
+@Entity
+@Table(name = "users")
+@Access(AccessType.FIELD)
 public class User {
     public User() { }
     public User(Long id) { this.id = id; }

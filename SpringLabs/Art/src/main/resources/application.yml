@@ -9,3 +9,5 @@ spring:
     driverClassName: org.postgresql.Driver
 server:
   port: 8008
+private:
+  session-timeout: 10
