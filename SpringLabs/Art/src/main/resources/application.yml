@@ -3,10 +3,15 @@ spring:
     name: Art
   datasource:
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/buysell?currentSchema=art
-    username: artb
-    password: "#art-service"
+    url: jdbc:postgresql://localhost:5432/art
+    username: postgres
+    password: postgres
     driverClassName: org.postgresql.Driver
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
 server:
   port: 8008
 private:
