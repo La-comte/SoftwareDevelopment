@@ -13,7 +13,7 @@ import ru.iu3.backend.repository.MuseumRepository;
 import ru.iu3.backend.repository.UserRepository;
 
 import java.util.*;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1")
 public class UserController {

@@ -11,7 +11,7 @@ import ru.iu3.backend.repository.CountryRepository;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1")
 public class ArtistContoller {
