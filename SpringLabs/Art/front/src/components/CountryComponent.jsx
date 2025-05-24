@@ -22,8 +22,7 @@ const CountryComponent = props => {
                 })
                 .catch(() => setHidden(true))
         }
-    }, []); // [] нужны для вызова useEffect только один раз при инициализации компонента
-    // это нужно для того, чтобы в состояние name каждый раз не записывалось значение из БД
+    }, []);
 
     const onSubmit = (event) => {
         event.preventDefault();

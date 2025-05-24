@@ -7,4 +7,5 @@ import ru.iu3.backend.entity.Painting;
 
 @Repository
 public interface PaintingRepository extends JpaRepository<Painting, Long> {
+
 }
